@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Triggering Events in HTML</title>
+    <link rel="stylesheet", href="events.css"> 
+</head>
+<body>
+    <h1>Triggering click events on HTML elements</h1>
+
+    <!-- A click on this button will trigger an event. -->
+    <button id="incrementButton">Increase the Counter</button>
+
+    <!-- The text and the numberOfClicks attribute change when the button is clicked. -->
+    <!-- this whole thing has the id name of counter, and we assign the whole thing to varaible spanElement in JavaScript -->
+    <span id="counter" numberOfClicks="0">0</span>
+
+    <!-- This .js file is loaded and then runs after all other elements are loaded. -->
+    <script src="events.js"></script>
+
+    <div class="chartContainer">
+        <p id="chartToggle">Click to toggle chart visibility</p>
+        <img src="toggle.png" id="chart1">
+    </div>
+</body>
+</html>
